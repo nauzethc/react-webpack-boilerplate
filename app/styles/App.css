@@ -1,5 +1,13 @@
 body {
-  background-color: rgb(26, 29, 36);
-  color: rgb(92, 99, 102);
+  background-color: #101D2B;
+  color: #B3B8C3;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.title {
+  color: #B77EB8;
+}
+
+.items {
+  color: #5486C0;
 }
