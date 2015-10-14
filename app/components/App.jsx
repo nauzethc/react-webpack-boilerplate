@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import Item from './Item.jsx';
+import { ItemList } from './Items.jsx';
 import '../styles/App.css';
 
 
@@ -19,22 +19,10 @@ const App = React.createClass({
     return (
       <div className="app">
         <h1 className="title">Hello, {this.props.title}!</h1>
-        { this.renderItems() }
+        <ItemList items={this.props.items} />
       </div>
     );
   },
-
-  renderItems() {
-    if (this.props.items.length) {
-      return (
-        <ul className="items">
-          { this.props.items.map(({ key, name }) => <li key={key}><Item name={name} /></li>) }
-        </ul>
-      );
-    } else {
-      return <p className="empty">No items</p>;
-    }
-  }
 
 });
 
