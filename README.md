@@ -2,10 +2,12 @@
 Minimal boilerplate for ReactJS project with dev environment.
  - [React](https://github.com/facebook/react)
  - [babel-loader](https://github.com/babel/babel-loader) (ES6 + JSX transpiler)
+ - [babel-plugin-react-transform](https://github.com/gaearon/babel-plugin-react-transform) (Enable live transforms through Babel for React)
  - [webpack](https://github.com/webpack/webpack) (Module bundler)
  - [webpack-dev-server](https://github.com/webpack/webpack-dev-server) (Web server for development usage)
- - [react-hot-loader](https://github.com/gaearon/react-hot-loader) (hot module replacement)
  - [eslint](https://github.com/eslint/eslint) and [csslint](https://github.com/CSSLint/csslint) (Source code linters)
+
+Note: [react-hot-loader](https://github.com/gaearon/react-hot-loader) is deprecated in favor of [babel-plugin-react-transform](https://github.com/gaearon/babel-plugin-react-transform).
 
 ## Usage
 ```
