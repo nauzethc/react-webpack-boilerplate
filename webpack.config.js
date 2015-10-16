@@ -32,7 +32,11 @@ var common = {
   },
 
   plugins: [
-    new HtmlPlugin({ title: 'React App' })
+    new HtmlPlugin({
+      title: 'React App',
+      inject: 'body',
+      template: path.resolve(ROOT, 'app/templates/index.html')
+    })
   ]
 
 };
@@ -60,10 +64,7 @@ if (TARGET === 'start' || !TARGET) {
     },
 
     plugins: [
-      new Webpack.HotModuleReplacementPlugin(),
-      new Webpack.DefinePlugin({
-        'process.env': { 'NODE_ENV': JSON.stringify('production') }
-      }),
+      new Webpack.HotModuleReplacementPlugin()
     ]
 
   });
