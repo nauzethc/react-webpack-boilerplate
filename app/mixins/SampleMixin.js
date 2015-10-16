@@ -1,6 +1,6 @@
 export default {
 
-  onClick(event) {
+  onSampleClick(event) {
     console.log('Hello World!');
   },
 
