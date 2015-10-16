@@ -1,6 +1,6 @@
 # react-webpack-boilerplate
 Minimal boilerplate for ReactJS project with dev environment.
- - [React](https://github.com/facebook/react)
+ - [React](https://github.com/facebook/react) (updated to 0.14!)
  - [babel-loader](https://github.com/babel/babel-loader) (ES6 + JSX transpiler)
  - [babel-plugin-react-transform](https://github.com/gaearon/babel-plugin-react-transform) (Enable live transforms through Babel for React)
  - [webpack](https://github.com/webpack/webpack) (Module bundler)
